@@ -1,0 +1,20 @@
+{
+  "subtitle": "Junior Full Stack Engineer",
+  "pitch": "I build web applications with React, Redux, and TypeScript.",
+  "about_tab": "ABOUT",
+  "experience_tab": "EXPERIENCE",
+  "skills_tab": "SKILLS",
+  "experience": {
+    "diving_bear_company": "Diving Bear",
+    "diving_bear_role": "Développeur Full Stack",
+    "diving_bear_period": "2023 - PRESENT",
+    "diving_bear_tags": ["React", "TypeScript", "Nest.js", "Express", "MongoDB"],
+    "diving_bear_description": "Conception and development of a web application for trading analysis.",
+    "phd_company": "École normale supérieure de Paris",
+    "phd_role": "PhD Candidate",
+    "phd_period": "2019 - 2023",
+    "phd_tags": ["Partial Differential Equations", "Forward Modeling", "Inverse Modeling", "Julia", "Matlab", "Python" ],
+    "phd_description": "Building cutting edge physical and numerical models to study the dynamics of the Earth's crust over long space and time scales"
+
+  }
+}

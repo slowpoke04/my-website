@@ -53,12 +53,13 @@ export function SpotlightBackground({children}: {children: React.ReactNode}) {
           opacity,
           background:
             resolvedTheme === 'light'
-              ? `radial-gradient(600px circle at ${position.x}px ${position.y}px, theme(colors.blue.500) , transparent 60%)`
-              : `radial-gradient(600px circle at ${position.x}px ${position.y}px, theme(colors.blue.500), transparent 60%)`,
+              ? `radial-gradient(600px circle at ${position.x}px ${position.y}px, var(--light-radial-gradient-center) , transparent 60%)`
+              : `radial-gradient(600px circle at ${position.x}px ${position.y}px,  var(--light-radial-gradient-center), transparent 60%)`,
         }}
       />
+      {/* rgba(209,213,230,.5) */}
       {/* remove relative class below to see spotlight above the content */}
-      <div className='relative z-10 text-gray-300'>{children}</div>
+      <div className='z-10'>{children}</div>
     </div>
   )
 }

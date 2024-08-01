@@ -3,7 +3,6 @@ import {ELanguages} from '@/types/enums'
 import Link from 'next/link'
 
 export default function LanguageSwitcher({lng}: {lng: ELanguages}) {
-  console.log(lng)
   return (
     <div className='flex items-center rounded border border-slate-400 text-xs font-semibold dark:border-slate-600'>
       <Link

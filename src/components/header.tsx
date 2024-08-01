@@ -14,7 +14,7 @@ export default function Header({
   className?: string
 }) {
   return (
-    <header className={cn('gap-0', className)}>
+    <header className={cn('flex flex-col justify-between gap-0', className)}>
       <div className='flex flex-col md:gap-8'>
         <Title lng={lng} />
         <Tabs lng={lng} />
@@ -41,7 +41,7 @@ export async function Title({lng}: {lng: ELanguages}) {
   )
 }
 
-const tabsKeys = ['about_tab', 'experience_tab', 'skills_tab']
+const tabsKeys = ['about', 'experience', 'education']
 function Tabs({lng}: {lng: ELanguages}) {
   return (
     <ul className='invisible flex h-0 flex-col items-start gap-4 md:visible'>
@@ -55,7 +55,7 @@ function Tabs({lng}: {lng: ELanguages}) {
 }
 
 async function TabElement({lng, tabKey}: {lng: ELanguages; tabKey: string}) {
-  const {t} = await getTranslation(lng)
+  const {t} = await getTranslation(lng, undefined, {keyPrefix: 'tabs'})
   return (
     <div className='group flex items-center gap-4 text-xs font-normal tracking-widest text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100'>
       <TabLine className='inline-block h-[2px] w-8 border-none bg-slate-600 transition-all duration-150 ease-in-out group-hover:w-16 group-hover:bg-slate-900 dark:bg-slate-400 dark:group-hover:bg-slate-100' />

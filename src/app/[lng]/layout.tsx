@@ -32,7 +32,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute='class'>
           <SpotlightBackground>
-            <div className='flex h-screen w-screen flex-col'>{children}</div>
+            <div className='flex h-screen w-screen flex-col items-center'>
+              {children}
+            </div>
           </SpotlightBackground>
         </ThemeProvider>
         <Analytics />

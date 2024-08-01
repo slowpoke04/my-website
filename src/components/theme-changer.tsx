@@ -19,9 +19,9 @@ const ThemeChanger = ({className}: {className?: string}) => {
   } else {
     icon =
       resolvedTheme === 'dark' ? (
-        <Sun size={size} onClick={() => setTheme('light')} />
+        <Moon size={size} onClick={() => setTheme('light')} />
       ) : (
-        <Moon size={size} onClick={() => setTheme('dark')} />
+        <Sun size={size} onClick={() => setTheme('dark')} />
       )
   }
 

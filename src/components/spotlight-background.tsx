@@ -9,7 +9,7 @@ export function SpotlightBackground({children}: {children: React.ReactNode}) {
   const [position, setPosition] = useState({x: 0, y: 0})
   const [opacity, setOpacity] = useState(0)
 
-  const {theme, resolvedTheme} = useTheme()
+  const {resolvedTheme} = useTheme()
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!divRef.current || isFocused) return
@@ -53,8 +53,8 @@ export function SpotlightBackground({children}: {children: React.ReactNode}) {
           opacity,
           background:
             resolvedTheme === 'light'
-              ? `radial-gradient(600px circle at ${position.x}px ${position.y}px, rgba(209,213,230,1), transparent 60%)`
-              : `radial-gradient(600px circle at ${position.x}px ${position.y}px, rgba(29,37,66,.01), transparent 60%)`,
+              ? `radial-gradient(600px circle at ${position.x}px ${position.y}px, theme(colors.blue.500) , transparent 60%)`
+              : `radial-gradient(600px circle at ${position.x}px ${position.y}px, theme(colors.blue.500), transparent 60%)`,
         }}
       />
       {/* remove relative class below to see spotlight above the content */}

@@ -6,6 +6,7 @@ import {ELanguages} from '@/types/enums'
 import {ThemeProvider} from 'next-themes'
 import ThemeChanger from '@/components/theme-changer'
 import {SpotlightBackground} from '@/components/spotlight-background'
+import {Analytics} from '@vercel/analytics/react'
 
 const inter = Inter({subsets: ['latin']})
 
@@ -34,6 +35,7 @@ export default function RootLayout({
             <div className='flex h-screen w-screen flex-col'>{children}</div>
           </SpotlightBackground>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )

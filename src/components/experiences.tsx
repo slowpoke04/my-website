@@ -3,9 +3,11 @@ import {ELanguages} from '@/types/enums'
 import {Trans} from 'react-i18next/TransWithoutContext'
 import ActiveSectionSetter from './client/active-section-setter'
 import Tag from './tag'
+import Link from 'next/link'
+import {LinkIcon} from 'lucide-react'
 
 interface IExperienceKeys {
-  id?: number
+  id?: number | string
   company: string
   role: string
   period: string
@@ -16,6 +18,7 @@ interface IExperienceKeys {
 
 function getExperienceKeys(prefix: string): IExperienceKeys {
   return {
+    id: prefix,
     company: `${prefix}_company`,
     role: `${prefix}_role`,
     period: `${prefix}_period`,
@@ -99,6 +102,16 @@ async function Experience({
             </li>
           ))}
         </ul>
+        {experienceKeys.id === 'phd' && (
+          <Link
+            href='https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2023GC011229'
+            target='_blank'
+            rel='noopener'
+            className='group/link flex items-center gap-2 text-xs text-cyan-600 hover:text-slate-900 dark:hover:text-slate-100'>
+            <LinkIcon className='size-4 group-hover/link:text-slate-900 dark:group-hover/link:text-slate-100' />{' '}
+            Main publication here !
+          </Link>
+        )}
         <div className='flex flex-wrap gap-2'>
           {tagsText.map(tag => (
             <Tag key={tag} text={tag} />

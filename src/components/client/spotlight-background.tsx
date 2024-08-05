@@ -5,6 +5,7 @@ import {useEffect, useRef, useState} from 'react'
 
 export function SpotlightBackground({children}: {children: React.ReactNode}) {
   const divRef = useRef<HTMLDivElement>(null)
+  const debounceTimer = useRef<number | null>(null)
   // const [isMounted, setIsMounted] = useState(false)
   const [isFocused, setIsFocused] = useState(false)
   const [position, setPosition] = useState({x: 0, y: 0})
@@ -12,8 +13,19 @@ export function SpotlightBackground({children}: {children: React.ReactNode}) {
 
   const {resolvedTheme} = useTheme()
 
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+  const handleMouseMove = async (e: React.MouseEvent<HTMLDivElement>) => {
     if (!divRef.current || isFocused) return
+
+    const debounceTime = 50
+
+    if (
+      debounceTimer.current &&
+      Date.now() - debounceTimer.current < debounceTime
+    ) {
+      return
+    }
+
+    debounceTimer.current = Date.now()
 
     const div = divRef.current
     const rect = div.getBoundingClientRect()

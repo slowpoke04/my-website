@@ -37,17 +37,31 @@
   "education": {
     "section_title": "EDUCATION",
     "ens_institution": "École normale supérieure de Paris",
-    "ens_degree": "Undergraduate and Master's degrees in Geophysics",
+    "ens_degree": "Third Year and Master's degrees in Geosciences",
     "ens_period": "2016 - 2019",
     "ens_tags": ["Mathematics", "Physics", "Geology", "Numerical Methods", "Data Analysis", "Programming"],
     "ens_description": "I studied quantitative geosciences",
     "ens_description_list": [],
+
     "ipgp_institution": "Institut de Physique du Globe de Paris",
-    "ipgp_degree": "Master in Geophysics",
+    "ipgp_degree": "Second Year of Master's in Geophysics",
     "ipgp_period": "2018 - 2019",
     "ipgp_tags": ["Seismology", "Geodynamics", "Geophysical Imaging", "Geostatistics", "Geophysical Inverse Problems", "Numerical Modeling"],
     "ipgp_description": "I specialized in seismology and geodynamics, and learned to model the Earth's interior and study its dynamics.",
-    "ipgp_description_list": []
+    "ipgp_description_list": [],
+
+    "sorbonne_institution": "Sorbonne Université",
+    "sorbonne_degree": "Second Year in Geosciences",
+    "sorbonne_period": "2015 - 2016",
+
+    "dijon_institution": "Université de Bourgogne",
+    "dijon_degree": "First Year in Natural Sciences",
+    "dijon_period": "2014 - 2015",
     
+    "python": "Python",
+    "data_science": "Data Science",
+    "deep_learning": "Deep Learning",
+    "inverted_pedagogy": "Inverted Pedagogy"
+
   }
 }

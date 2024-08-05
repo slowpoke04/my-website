@@ -23,5 +23,19 @@
     "phd_tags": ["Equations aux Dérivées Partielles", "Modèles Directs", "Modèles Inverses", "Julia", "Matlab", "Python" ],
     "phd_description": "Elaboration de nouveaux modèles physiques et informatiques afin de mieux comprendre la dynamique des frontières de plaques tectoniques aux grandes échelles spatiales et temporelles."
 
+  },
+  "education": {
+    "section_title": "FORMATION",
+    "ens_institution": "École normale supérieure de Paris",
+    "ens_degree": "L3 et Master - Geosciences",
+    "ens_period": "2016 - 2019",
+    "ens_tags": ["Mathematiques", "Physique", "Sciences de la Terre", "Méthodes Numériques", "Analyse de Données", "Programmation"],
+    "ens_description_list": [],
+    "ipgp_institution": "Institut de Physique du Globe de Paris",
+    "ipgp_degree": "M2 - Geophysique",
+    "ipgp_period": "2018 - 2019",
+    "ipgp_tags": ["Sismologie", "Geodynamique", "Geostatistiques", "Modélisation Numérique"],
+    "ipgp_description_list": []
+    
   }
 }

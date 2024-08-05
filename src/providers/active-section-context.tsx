@@ -16,7 +16,7 @@ export default function ActiveSectionProvider({
 }: {
   children: React.ReactNode
 }) {
-  const [activeSection, setActiveSection] = useState('about')
+  const [activeSection, setActiveSection] = useState('')
   return (
     <ActiveSectionContext.Provider value={{activeSection, setActiveSection}}>
       {children}

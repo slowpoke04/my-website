@@ -12,16 +12,42 @@
     "content": "<par> I discovered the world of programming in 2015 during my very first undergraduate computer science course. The power of this tool immediately fascinated me, and I have continuously explored the breadth of this field and refined my skills ever since. Throughout my academic journey in geophysics, I worked extensively on data analysis and modeling, where computational tools play a central role.</par><par>A PhD in mechanical modeling further strengthened my expertise in handling complex computational challenges. After completing it, I decided to venture into web development, driven by a passion for creating impactful solutions. I embarked on developing a web application in the finance sector, immersing myself in learning the fundamental web technologies and the MERN stack.</par><par>This unique combination of scientific rigor and practical web development experience has equipped me with a diverse skill set. My background in computational science ensures a strong foundation in problem-solving and analytical thinking, while my practical experience with web technologies demonstrates my ability to deliver robust and scalable applications.</par><par>I am eager to leverage my interdisciplinary knowledge and technical skills to contribute to innovative projects, bring ideas to life, and continue evolving as a software engineer.</par>"
   },
   "experience": {
+    "section_title": "EXPERIENCE",
     "diving_bear_company": "Diving Bear",
     "diving_bear_role": "Développeur Full Stack",
     "diving_bear_period": "2023 - PRESENT",
     "diving_bear_tags": ["React", "TypeScript", "Nest.js", "Express", "MongoDB"],
     "diving_bear_description": "Conception and development of a web application for trading analysis.",
+    "diving_bear_description_list": [
+      "Designed the MVP",
+      "Self-taught in modern web technologies"
+    ],
     "phd_company": "École normale supérieure de Paris",
     "phd_role": "PhD Candidate",
     "phd_period": "2019 - 2023",
-    "phd_tags": ["Partial Differential Equations", "Forward Modeling", "Inverse Modeling", "Julia", "Matlab", "Python" ],
-    "phd_description": "Building cutting edge physical and numerical models to study the dynamics of the Earth's crust over large space and time scales"
-
+    "phd_tags": ["Partial Differential Equations", "Forward Modeling", "Inverse Modeling", "Julia", "Matlab", "Python", "Teaching", "Communication" ],
+    "phd_description": "I Built cutting edge physical and numerical models to study the dynamics of the Earth's crust over large space and time scales.",
+    "phd_description_list": [
+      "Manipulated complex Mathematical and computational concepts to develop models.",
+      "Presented research findings at international conferences and workshops.",
+      "Collaborated with a team of geophysicists to interpret the models results and publish research papers.",
+      "Contributed in educational activities by teaching and supervising undergraduate to master's students."
+    ]
+  },
+  "education": {
+    "section_title": "EDUCATION",
+    "ens_institution": "École normale supérieure de Paris",
+    "ens_degree": "Undergraduate and Master's degrees in Geophysics",
+    "ens_period": "2016 - 2019",
+    "ens_tags": ["Mathematics", "Physics", "Geology", "Numerical Methods", "Data Analysis", "Programming"],
+    "ens_description": "I studied quantitative geosciences",
+    "ens_description_list": [],
+    "ipgp_institution": "Institut de Physique du Globe de Paris",
+    "ipgp_degree": "Master in Geophysics",
+    "ipgp_period": "2018 - 2019",
+    "ipgp_tags": ["Seismology", "Geodynamics", "Geophysical Imaging", "Geostatistics", "Geophysical Inverse Problems", "Numerical Modeling"],
+    "ipgp_description": "I specialized in seismology and geodynamics, and learned to model the Earth's interior and study its dynamics.",
+    "ipgp_description_list": []
+    
   }
 }

@@ -4,9 +4,9 @@ import './globals.css'
 import {languages} from '@/lib/i18n/settings'
 import {ELanguages} from '@/types/enums'
 import {ThemeProvider} from 'next-themes'
-import ThemeChanger from '@/components/theme-changer'
 import {SpotlightBackground} from '@/components/spotlight-background'
 import {Analytics} from '@vercel/analytics/react'
+import {SpeedInsights} from '@vercel/speed-insights/next'
 
 const inter = Inter({subsets: ['latin']})
 
@@ -38,6 +38,7 @@ export default function RootLayout({
           </SpotlightBackground>
         </ThemeProvider>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )

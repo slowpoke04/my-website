@@ -1,4 +1,5 @@
 import About from '@/components/about'
+import Educations from '@/components/education'
 import Experiences from '@/components/experiences'
 import Header from '@/components/header'
 import Links from '@/components/links'
@@ -15,10 +16,11 @@ export default function Home({params}: {params: {lng: ELanguages}}) {
         lng={lng}
       />
 
-      <div className='md:-pt-4 no-scrollbar flex grow flex-col items-stretch gap-24 p-10 pt-0 align-middle sm:p-10 sm:pt-0 md:-mt-24 md:h-full md:p-20 md:pl-0'>
+      <div className='md:-pt-4 no-scrollbar flex grow flex-col items-stretch gap-16 p-10 pt-0 align-middle sm:p-10 sm:pt-0 md:-mt-16 md:h-full md:p-20 md:pl-0'>
         <Links className='pb-4 md:invisible md:h-0 md:p-0' lng={lng} />
         <About lng={lng} />
         <Experiences lng={lng} />
+        <Educations lng={lng} />
       </div>
     </main>
   )

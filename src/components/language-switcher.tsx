@@ -7,6 +7,7 @@ export default function LanguageSwitcher({lng}: {lng: ELanguages}) {
     <div className='flex items-center rounded border border-slate-400 text-xs font-semibold dark:border-slate-600'>
       <Link
         href='/en'
+        scroll={false}
         className={cn(
           'rounded-l p-1 text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100',
           lng === ELanguages.EN &&
@@ -16,6 +17,7 @@ export default function LanguageSwitcher({lng}: {lng: ELanguages}) {
       </Link>
       <Link
         href='/fr'
+        scroll={false}
         className={cn(
           'rounded-r p-1 text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100',
           lng === ELanguages.FR &&

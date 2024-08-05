@@ -4,9 +4,10 @@ import './globals.css'
 import {languages} from '@/lib/i18n/settings'
 import {ELanguages} from '@/types/enums'
 import {ThemeProvider} from 'next-themes'
-import {SpotlightBackground} from '@/components/spotlight-background'
 import {Analytics} from '@vercel/analytics/react'
 import {SpeedInsights} from '@vercel/speed-insights/next'
+import ActiveSectionProvider from '@/providers/active-section-context'
+import {SpotlightBackground} from '@/components/client/spotlight-background'
 
 const inter = Inter({subsets: ['latin']})
 
@@ -30,11 +31,9 @@ export default function RootLayout({
     <html lang={lng} suppressHydrationWarning>
       <head />
       <body className={inter.className}>
-        <ThemeProvider attribute='class'>
+        <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
           <SpotlightBackground>
-            <div className='flex h-screen w-screen flex-col items-center'>
-              {children}
-            </div>
+            <ActiveSectionProvider>{children}</ActiveSectionProvider>
           </SpotlightBackground>
         </ThemeProvider>
         <Analytics />

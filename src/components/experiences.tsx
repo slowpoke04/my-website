@@ -1,6 +1,8 @@
 import {getTranslation} from '@/lib/i18n'
 import {ELanguages} from '@/types/enums'
 import {Trans} from 'react-i18next/TransWithoutContext'
+import ActiveSectionSetter from './client/active-section-setter'
+import Tag from './tag'
 
 interface IExperienceKeys {
   id?: number
@@ -31,7 +33,7 @@ const experiences: IExperienceKeys[] = [
 export default async function Experiences({lng}: {lng: ELanguages}) {
   const {t} = await getTranslation(lng, undefined, {keyPrefix: 'experience'})
   return (
-    <section className='flex flex-col gap-12 md:-mt-4'>
+    <section id='experience' className='flex flex-col gap-12 md:-mt-4'>
       <h2 className='text-sm font-semibold text-slate-900 dark:text-slate-100 md:invisible md:h-0'>
         {t('section_title')}
       </h2>
@@ -103,14 +105,6 @@ async function Experience({
           ))}
         </div>
       </div>
-    </div>
-  )
-}
-
-async function Tag({text}: {text: string}) {
-  return (
-    <div className='rounded-full border-none border-teal-300 px-2 py-1 text-xs font-light text-teal-600 dark:bg-teal-950 dark:text-teal-400 group-hover:dark:bg-teal-900'>
-      {text}
     </div>
   )
 }

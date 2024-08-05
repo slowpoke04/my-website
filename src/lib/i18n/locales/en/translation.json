@@ -16,7 +16,7 @@
     "diving_bear_company": "Diving Bear",
     "diving_bear_role": "Développeur Full Stack",
     "diving_bear_period": "2023 - PRESENT",
-    "diving_bear_tags": ["React", "TypeScript", "Nest.js", "Express", "MongoDB"],
+    "diving_bear_tags": ["HTML", "Tailwind CSS", "React", "TypeScript", "Nest.js", "Express", "MongoDB"],
     "diving_bear_description": "Conception and development of a web application for trading analysis.",
     "diving_bear_description_list": [
       "Designed the MVP",
@@ -28,7 +28,7 @@
     "phd_tags": ["Partial Differential Equations", "Forward Modeling", "Inverse Modeling", "Julia", "Matlab", "Python", "Teaching", "Communication" ],
     "phd_description": "I Built cutting edge physical and numerical models to study the dynamics of the Earth's crust over large space and time scales.",
     "phd_description_list": [
-      "Manipulated complex Mathematical and computational concepts to develop models.",
+      "Manipulated complex Mathematical and computational concepts.",
       "Presented research findings at international conferences and workshops.",
       "Collaborated with a team of geophysicists to interpret the models results and publish research papers.",
       "Contributed in educational activities by teaching and supervising undergraduate to master's students."

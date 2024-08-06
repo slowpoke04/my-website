@@ -29,7 +29,7 @@ export default function Main({params}: {params: {lng: ELanguages}}) {
           <ActiveSectionSetter section='education'>
             <Educations lng={lng} />
           </ActiveSectionSetter>
-          <div className='h-40'></div>
+          <div className='h-0 md:h-20'></div>
         </div>
       </div>
     </main>

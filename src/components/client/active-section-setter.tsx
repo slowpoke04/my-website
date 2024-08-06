@@ -19,7 +19,7 @@ export default function ActiveSectionSetter({
       const rect = divRef.current.getBoundingClientRect()
       const topPos = rect.top / window.innerHeight
       const botPos = rect.bottom / window.innerHeight
-      if (topPos < 0.44 && botPos > 0.45) {
+      if (topPos < 0.449 && botPos > 0.45) {
         setActiveSection(section)
       }
     }

@@ -31,7 +31,7 @@ function getEducationKeys(
   }
 }
 
-const educationNames = ['ipgp', 'ens', 'sorbonne', 'dijon']
+const educationNames = ['ens', 'ipgp', 'sorbonne', 'dijon']
 const educationWidths = [672, 317, 354, 672]
 const educationHeights = [255, 159, 142, 255]
 const educations: IEducationKeys[] = educationNames.map((name, id) =>
@@ -49,7 +49,7 @@ export default async function Educations({lng}: {lng: ELanguages}) {
   const {t} = await getTranslation(lng, undefined, {keyPrefix: 'education'})
   return (
     <section id='education' className='flex flex-col gap-12 md:-mt-4'>
-      <h2 className='text-sm font-semibold text-slate-900 dark:text-slate-100 md:invisible md:h-0'>
+      <h2 className='text-sm font-semibold text-slate-500 dark:text-slate-500 md:invisible md:h-0'>
         {t('section_title')}
       </h2>
       <div className='flex flex-col gap-2 p-2'>

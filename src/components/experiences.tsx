@@ -37,7 +37,7 @@ export default async function Experiences({lng}: {lng: ELanguages}) {
   const {t} = await getTranslation(lng, undefined, {keyPrefix: 'experience'})
   return (
     <section id='experience' className='flex flex-col gap-12 md:-mt-4'>
-      <h2 className='text-sm font-semibold text-slate-900 dark:text-slate-100 md:invisible md:h-0'>
+      <h2 className='text-sm font-semibold text-slate-500 dark:text-slate-500 md:invisible md:h-0'>
         {t('section_title')}
       </h2>
       <ul className='flex flex-col gap-6'>
@@ -109,7 +109,7 @@ async function Experience({
             rel='noopener'
             className='group/link flex items-center gap-2 text-xs text-cyan-600 hover:text-slate-900 dark:hover:text-slate-100'>
             <LinkIcon className='size-4 group-hover/link:text-slate-900 dark:group-hover/link:text-slate-100' />{' '}
-            Main publication here !
+            {t('phd_link')}
           </Link>
         )}
         <div className='flex flex-wrap gap-2'>

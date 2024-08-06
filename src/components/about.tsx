@@ -13,7 +13,7 @@ export default async function About({lng}: {lng: ELanguages}) {
 
   return (
     <section id='about' className='flex flex-col gap-4 md:-mt-4'>
-      <h2 className='text-sm font-semibold text-slate-900 dark:text-slate-100 md:invisible md:h-0'>
+      <h2 className='text-sm font-semibold text-slate-500 dark:text-slate-500 md:invisible md:h-0'>
         {t('section_title')}
       </h2>
       <Trans

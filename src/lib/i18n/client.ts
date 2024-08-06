@@ -1,4 +1,4 @@
-import 'client-only'
+// import 'client-only'
 
 import i18next from 'i18next'
 import {useEffect, useState} from 'react'
@@ -54,6 +54,9 @@ export function useTranslation(lng: string, ns?: string, options?: any) {
     if (cookiesValue === lng) return
     setCookie(cookieName, lng)
   }, [lng, cookiesValue])
+  if (runsOnServerSide && lng && i18n.resolvedLanguage !== lng) {
+    i18n.changeLanguage(lng)
+  }
 
   return ret
 }

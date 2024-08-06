@@ -1,6 +1,6 @@
 {
   "subtitle": "Ingénieur Full Stack Junior",
-  "pitch": "Je construis des applications web modernes avec Typescript, React et Node.js.",
+  "pitch": "(☕,💶) => \"Web App\".repeat(☕ * 💶)",
   "tabs": {
     "about": "À PROPOS",
     "experience": "EXPÉRIENCE",
@@ -9,13 +9,13 @@
   },
   "about": {
     "section_title": "À PROPOS",
-    "content": "<par>J'ai découvert l'univers de la programmation en 2015 lors de mon tout premier cours d'informatique de licence. La puissance de cet outil m'a immédiatement fasciné, et je n'ai cessé d'explorer l'étendue de ce domaine et de perfectionner mes compétences depuis lors. Au cours de mon parcours académique en géophysique, j'ai beaucoup travaillé sur de l'analyse de données et de la modélisation où les outils informatiques ont un rôle central.</par><par>Un doctorat en modélisation mécanique a renforcé mon expertise dans la gestion de défis computationnels complexes. Après son obtention, j'ai décidé de me lancer dans le développement web, animé par une passion pour la création de solutions impactantes. J'ai entrepris de développer une application web dans le secteur de la finance, m'immergeant dans l'apprentissage des technologies fondamentales du Web, ainsi que du stack MERN.</par><par>Cette combinaison unique de rigueur scientifique et d'expérience pratique en développement web m'a doté d'un ensemble de compétences diversifiées. Mon background en science computationnelle garantit une solide base en résolution de problèmes et en pensée analytique, tandis que mon expérience pratique en technologies web démontre ma capacité à livrer des applications robustes et évolutives.</par><par>Je suis impatient de mettre à profit mes connaissances interdisciplinaires et mes compétences techniques pour contribuer à des projets innovants, concrétiser des idées et continuer à évoluer en tant qu'ingénieur logiciel.</par>"
+    "content": "<par>J'ai découvert l'univers de la programmation en 2015 lors de mon tout premier cours d'informatique de licence. La puissance de cet outil m'a immédiatement fasciné, et je n'ai cessé d'explorer l'étendue de ce domaine et de perfectionner mes compétences depuis lors. Au cours de mon parcours académique en géophysique, j'ai beaucoup travaillé sur de l'analyse de données et de la modélisation au sein desquelles les outils informatiques ont un rôle central.</par><par>Un doctorat en modélisation mécanique a renforcé mon expertise dans la gestion de défis computationnels complexes. Après son obtention, j'ai décidé de me lancer dans le développement web, animé par une passion pour la création de solutions impactantes. J'ai entrepris de développer une application web dans le secteur de la finance, m'immergeant dans l'apprentissage des technologies fondamentales du Web, ainsi que du stack MERN.</par><par>Cette combinaison unique de rigueur scientifique et d'expérience pratique en développement web m'a doté d'un ensemble de compétences diversifiées. Mon background en science computationnelle garantit une solide base en résolution de problèmes et en pensée analytique, tandis que mon expérience pratique en technologies web démontre ma capacité à livrer des applications robustes et évolutives.</par><par>Je suis enthousiaste à l'idée de mettre à profit mes connaissances interdisciplinaires et mes compétences techniques pour contribuer à des projets innovants, concrétiser des idées et continuer à progresser en tant qu'ingénieur logiciel.</par>"
   },
   "experience": {
     "diving_bear_company": "Diving Bear",
     "diving_bear_role": "Développeur Full Stack",
     "diving_bear_period": "2023 - PRESENT",
-    "diving_bear_tags": ["React", "TypeScript", "Nest.js", "Express", "MongoDB"],
+    "diving_bear_tags": ["HTML", "Tailwind CSS", "React", "TypeScript", "Nest.js", "Express", "MongoDB"],
     "diving_bear_description": "Conception et developpement d'une application web pour l'analyse de stratégies de trading.",
     "phd_company": "École normale supérieure de Paris",
     "phd_role": "Doctorant en Géophysique",
@@ -23,5 +23,34 @@
     "phd_tags": ["Equations aux Dérivées Partielles", "Modèles Directs", "Modèles Inverses", "Julia", "Matlab", "Python" ],
     "phd_description": "Elaboration de nouveaux modèles physiques et informatiques afin de mieux comprendre la dynamique des frontières de plaques tectoniques aux grandes échelles spatiales et temporelles."
 
+  },
+  "education": {
+    "section_title": "FORMATION",
+    "higher_education_title": "Higher Education",
+    "ens_institution": "École normale supérieure de Paris",
+    "ens_degree": "L3, Master et Thèse - Geosciences",
+    "ens_period": "2016 - 2023",
+    "ens_tags": ["Mathematiques", "Physique", "Sciences de la Terre", "Méthodes Numériques", "Analyse de Données", "Programmation"],
+    "ens_description_list": [],
+
+    "ipgp_institution": "Institut de Physique du Globe de Paris",
+    "ipgp_degree": "M2 - Geophysique",
+    "ipgp_period": "2018 - 2019",
+    "ipgp_tags": ["Sismologie", "Geodynamique", "Geostatistiques", "Modélisation Numérique"],
+    "ipgp_description_list": [],
+    
+    "sorbonne_institution": "Sorbonne Université",
+    "sorbonne_degree": "L2 Geosciences",
+    "sorbonne_period": "2015 - 2016",
+
+    "dijon_institution": "Université de Bourgogne",
+    "dijon_degree": "L1 Sciences Naturelles",
+    "dijon_period": "2014 - 2015",
+    
+    "other_courses_title": "Autres cours",
+    "python": "Python",
+    "data_sciences": "Data Sciences",
+    "deep_learning": "Deep Learning",
+    "inverted_pedagogy": "Pédagogie inversée"
   }
 }

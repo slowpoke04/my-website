@@ -1,6 +1,6 @@
 {
   "subtitle": "Junior Full Stack Engineer",
-  "pitch": "I build modern web applications with Typescript, React, and Node.js.",
+  "pitch": "(☕,💶) => \"Web App\".repeat(☕ * 💶)",
   "tabs": {
     "about": "ABOUT",
     "experience": "EXPERIENCE",
@@ -16,7 +16,7 @@
     "diving_bear_company": "Diving Bear",
     "diving_bear_role": "Développeur Full Stack",
     "diving_bear_period": "2023 - PRESENT",
-    "diving_bear_tags": ["React", "TypeScript", "Nest.js", "Express", "MongoDB"],
+    "diving_bear_tags": ["HTML", "Tailwind CSS", "React", "TypeScript", "Nest.js", "Express", "MongoDB"],
     "diving_bear_description": "Conception and development of a web application for trading analysis.",
     "diving_bear_description_list": [
       "Designed the MVP",
@@ -28,7 +28,7 @@
     "phd_tags": ["Partial Differential Equations", "Forward Modeling", "Inverse Modeling", "Julia", "Matlab", "Python", "Teaching", "Communication" ],
     "phd_description": "I Built cutting edge physical and numerical models to study the dynamics of the Earth's crust over large space and time scales.",
     "phd_description_list": [
-      "Manipulated complex Mathematical and computational concepts to develop models.",
+      "Manipulated complex Mathematical and computational concepts.",
       "Presented research findings at international conferences and workshops.",
       "Collaborated with a team of geophysicists to interpret the models results and publish research papers.",
       "Contributed in educational activities by teaching and supervising undergraduate to master's students."
@@ -36,18 +36,34 @@
   },
   "education": {
     "section_title": "EDUCATION",
+    "higher_education_title": "Higher Education",
     "ens_institution": "École normale supérieure de Paris",
-    "ens_degree": "Undergraduate and Master's degrees in Geophysics",
+    "ens_degree": "Third Year, Master's in Geosciences and doctoral degrees",
     "ens_period": "2016 - 2019",
     "ens_tags": ["Mathematics", "Physics", "Geology", "Numerical Methods", "Data Analysis", "Programming"],
     "ens_description": "I studied quantitative geosciences",
     "ens_description_list": [],
+
     "ipgp_institution": "Institut de Physique du Globe de Paris",
-    "ipgp_degree": "Master in Geophysics",
+    "ipgp_degree": "Second Year of Master's in Geophysics",
     "ipgp_period": "2018 - 2019",
     "ipgp_tags": ["Seismology", "Geodynamics", "Geophysical Imaging", "Geostatistics", "Geophysical Inverse Problems", "Numerical Modeling"],
     "ipgp_description": "I specialized in seismology and geodynamics, and learned to model the Earth's interior and study its dynamics.",
-    "ipgp_description_list": []
+    "ipgp_description_list": [],
+
+    "sorbonne_institution": "Sorbonne Université",
+    "sorbonne_degree": "Second Year in Geosciences",
+    "sorbonne_period": "2015 - 2016",
+
+    "dijon_institution": "Université de Bourgogne",
+    "dijon_degree": "First Year in Natural Sciences",
+    "dijon_period": "2014 - 2015",
     
+    "other_courses_title": "Other Courses",
+    "python": "Python",
+    "data_sciences": "Data Science",
+    "deep_learning": "Deep Learning",
+    "inverted_pedagogy": "Inverted Pedagogy"
+
   }
 }

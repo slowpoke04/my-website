@@ -1,9 +1,8 @@
 import {cn} from '@/lib/utils'
 import {ELanguages} from '@/types/enums'
 import {Github, GraduationCap, Linkedin} from 'lucide-react'
-import ThemeChanger from './theme-changer'
+import ThemeChanger from './client/theme-changer'
 import LanguageSwitcher from './language-switcher'
-import Link from 'next/link'
 
 export default function Links({
   lng,

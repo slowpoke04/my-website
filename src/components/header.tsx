@@ -1,10 +1,9 @@
-import ThemeChanger from './theme-changer'
 import {ELanguages} from '@/types/enums'
 import {getTranslation} from '@/lib/i18n'
 import {cn} from '@/lib/utils'
-import {Github, Linkedin} from 'lucide-react'
-import LanguageSwitcher from './language-switcher'
 import Links from './links'
+import Link from 'next/link'
+import TabElement from './client/tab-element'
 
 export default function Header({
   lng,
@@ -47,23 +46,11 @@ function Tabs({lng}: {lng: ELanguages}) {
     <ul className='invisible flex h-0 flex-col items-start gap-4 md:visible'>
       {tabsKeys.map(tabKey => (
         <li key={tabKey}>
-          <TabElement lng={lng} tabKey={tabKey} />
+          <Link href={tabKey !== 'about' ? `#${tabKey}` : `#content`}>
+            <TabElement lng={lng} tabKey={tabKey} />
+          </Link>
         </li>
       ))}
     </ul>
   )
 }
-
-async function TabElement({lng, tabKey}: {lng: ELanguages; tabKey: string}) {
-  const {t} = await getTranslation(lng, undefined, {keyPrefix: 'tabs'})
-  return (
-    <div className='group flex items-center gap-4 text-xs font-normal tracking-widest text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100'>
-      <TabLine className='inline-block h-[2px] w-8 border-none bg-slate-600 transition-all duration-150 ease-in-out group-hover:w-16 group-hover:bg-slate-900 dark:bg-slate-400 dark:group-hover:bg-slate-100' />
-      {t(tabKey)}
-    </div>
-  )
-}
-
-const TabLine = ({className}: {className?: string}) => (
-  <hr className={cn('', className)} />
-)

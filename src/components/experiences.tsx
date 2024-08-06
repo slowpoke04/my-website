@@ -1,9 +1,13 @@
 import {getTranslation} from '@/lib/i18n'
 import {ELanguages} from '@/types/enums'
 import {Trans} from 'react-i18next/TransWithoutContext'
+import ActiveSectionSetter from './client/active-section-setter'
+import Tag from './tag'
+import Link from 'next/link'
+import {LinkIcon} from 'lucide-react'
 
 interface IExperienceKeys {
-  id?: number
+  id?: number | string
   company: string
   role: string
   period: string
@@ -14,6 +18,7 @@ interface IExperienceKeys {
 
 function getExperienceKeys(prefix: string): IExperienceKeys {
   return {
+    id: prefix,
     company: `${prefix}_company`,
     role: `${prefix}_role`,
     period: `${prefix}_period`,
@@ -31,7 +36,7 @@ const experiences: IExperienceKeys[] = [
 export default async function Experiences({lng}: {lng: ELanguages}) {
   const {t} = await getTranslation(lng, undefined, {keyPrefix: 'experience'})
   return (
-    <section className='flex flex-col gap-12 md:-mt-4'>
+    <section id='experience' className='flex flex-col gap-12 md:-mt-4'>
       <h2 className='text-sm font-semibold text-slate-900 dark:text-slate-100 md:invisible md:h-0'>
         {t('section_title')}
       </h2>
@@ -97,20 +102,22 @@ async function Experience({
             </li>
           ))}
         </ul>
+        {experienceKeys.id === 'phd' && (
+          <Link
+            href='https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2023GC011229'
+            target='_blank'
+            rel='noopener'
+            className='group/link flex items-center gap-2 text-xs text-cyan-600 hover:text-slate-900 dark:hover:text-slate-100'>
+            <LinkIcon className='size-4 group-hover/link:text-slate-900 dark:group-hover/link:text-slate-100' />{' '}
+            Main publication here !
+          </Link>
+        )}
         <div className='flex flex-wrap gap-2'>
           {tagsText.map(tag => (
             <Tag key={tag} text={tag} />
           ))}
         </div>
       </div>
-    </div>
-  )
-}
-
-async function Tag({text}: {text: string}) {
-  return (
-    <div className='rounded-full border-none border-teal-300 px-2 py-1 text-xs font-light text-teal-600 dark:bg-teal-950 dark:text-teal-400 group-hover:dark:bg-teal-900'>
-      {text}
     </div>
   )
 }

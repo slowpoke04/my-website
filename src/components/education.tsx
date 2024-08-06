@@ -1,6 +1,5 @@
 import {getTranslation} from '@/lib/i18n'
 import {ELanguages} from '@/types/enums'
-import Image from 'next/image'
 
 interface IEducationKeys {
   id?: number | string
@@ -54,27 +53,11 @@ export default async function Educations({lng}: {lng: ELanguages}) {
         {t('section_title')}
       </h2>
       <div className='flex flex-col gap-2 p-2'>
-        {/* <h3 className='text-sm font-semibold text-slate-900 dark:text-slate-100'>
-          {t('higher_education_title')}
-        </h3> */}
         <ul className='flex flex-col gap-4'>
           {educations.map(expKeys => (
             <Education key={expKeys.id} lng={lng} educationKeys={expKeys} />
           ))}
         </ul>
-        {/* <h3 className='text-sm font-semibold text-slate-900 dark:text-slate-100'>
-          {t('other_courses_title')}
-        </h3>
-        <ul className='flex flex-col gap-4'>
-          {otherCoursesKeys.map(courseKey => (
-            <li key={courseKey} className='flex items-center gap-2'>
-              <span className='inline-block text-xl text-slate-500 dark:text-slate-300'>
-                ·
-              </span>{' '}
-              {t(courseKey)}
-            </li>
-          ))}
-        </ul> */}
       </div>
     </section>
   )

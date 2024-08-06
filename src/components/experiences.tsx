@@ -67,7 +67,7 @@ async function Experience({
   const emphTextColor = 'font-semibold text-teal-700 dark:text-slate-100'
 
   return (
-    <div className='group flex flex-col gap-1 rounded-lg p-2 sm:grid sm:grid-cols-3 md:border md:border-transparent md:hover:z-50 md:hover:border md:hover:border-slate-300 md:hover:bg-slate-100 md:dark:border-transparent md:dark:hover:bg-cyan-950'>
+    <div className='group flex flex-col gap-1 rounded-lg p-2 sm:grid sm:grid-cols-3 md:border md:border-transparent md:hover:z-50 md:hover:border md:hover:border-slate-300 md:hover:bg-slate-100 md:dark:hover:border-slate-700 md:dark:hover:bg-slate-900'>
       <div className='text-sm font-medium text-slate-600 dark:text-slate-500 sm:col-span-1 sm:mt-[6px]'>
         {t(experienceKeys.period)}
       </div>

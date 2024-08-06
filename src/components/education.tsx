@@ -54,18 +54,29 @@ export default async function Educations({lng}: {lng: ELanguages}) {
       <h2 className='text-sm font-semibold text-slate-900 dark:text-slate-100 md:invisible md:h-0'>
         {t('section_title')}
       </h2>
-      <ul className='flex flex-col gap-4'>
-        {educations.map(expKeys => (
-          <Education key={expKeys.id} lng={lng} educationKeys={expKeys} />
-        ))}
-      </ul>
-      <ul className='flex flex-col gap-4'>
-        {otherCoursesKeys.map(courseKey => (
-          <li key={courseKey} className=''>
-            {t(courseKey)}
-          </li>
-        ))}
-      </ul>
+      <div className='flex flex-col gap-2 p-2'>
+        {/* <h3 className='text-sm font-semibold text-slate-900 dark:text-slate-100'>
+          {t('higher_education_title')}
+        </h3> */}
+        <ul className='flex flex-col gap-4'>
+          {educations.map(expKeys => (
+            <Education key={expKeys.id} lng={lng} educationKeys={expKeys} />
+          ))}
+        </ul>
+        {/* <h3 className='text-sm font-semibold text-slate-900 dark:text-slate-100'>
+          {t('other_courses_title')}
+        </h3>
+        <ul className='flex flex-col gap-4'>
+          {otherCoursesKeys.map(courseKey => (
+            <li key={courseKey} className='flex items-center gap-2'>
+              <span className='inline-block text-xl text-slate-500 dark:text-slate-300'>
+                ·
+              </span>{' '}
+              {t(courseKey)}
+            </li>
+          ))}
+        </ul> */}
+      </div>
     </section>
   )
 }
@@ -88,8 +99,8 @@ async function Education({
 
   console.log(`${educationKeys.id}.png =`, `${educationKeys.id}.png`)
   return (
-    <div className='group flex flex-col gap-2 rounded px-2 sm:grid sm:grid-cols-3 md:border md:border-transparent md:hover:z-50 md:hover:border md:hover:border-slate-300 md:hover:bg-slate-100 md:dark:border-transparent md:dark:hover:border md:dark:hover:border-slate-700 md:dark:hover:bg-slate-900'>
-      <div className='flex flex-col justify-between text-sm font-medium text-slate-600 dark:text-slate-500 sm:col-span-1 sm:mt-[6px]'>
+    <div className='group flex flex-col items-stretch gap-2 rounded p-2 align-top sm:grid sm:grid-cols-3 md:border md:border-transparent md:hover:z-10 md:hover:border md:hover:border-slate-300 md:hover:bg-slate-100 md:dark:border-transparent md:dark:hover:border md:dark:hover:border-slate-700 md:dark:hover:bg-slate-900'>
+      <div className='mt-1 text-sm font-medium text-slate-600 dark:text-slate-500 sm:col-span-1'>
         {t(educationKeys.period)}
       </div>
       {/* <div className='flex flex-col gap-4 sm:col-span-2'> */}
@@ -97,10 +108,10 @@ async function Education({
         <h2 className='text-md inline-block font-medium text-slate-600 dark:text-slate-300'>
           {t(educationKeys.degree)}
         </h2>{' '}
-        <span className='text-md inline-block text-slate-500 dark:text-slate-400'>
+        <span className='text-md inline-block text-slate-600 dark:text-slate-400'>
           ·
         </span>{' '}
-        <h3 className='inline-block text-sm font-semibold text-slate-500 dark:text-slate-400'>
+        <h3 className='inline-block text-sm font-light text-slate-400 dark:text-slate-400'>
           {t(educationKeys.institution)}
         </h3>
       </div>

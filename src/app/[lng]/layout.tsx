@@ -7,6 +7,9 @@ import {ThemeProvider} from 'next-themes'
 import {SpotlightBackground} from '@/components/spotlight-background'
 import {Analytics} from '@vercel/analytics/react'
 import {SpeedInsights} from '@vercel/speed-insights/next'
+import ActiveSectionProvider from '@/providers/active-section-context'
+import {SpotlightBackground} from '@/components/client/spotlight-background'
+import Favicon from '/public/favicon.svg'
 
 const inter = Inter({subsets: ['latin']})
 
@@ -17,6 +20,7 @@ export async function generateStaticParams() {
 export const metadata: Metadata = {
   title: 'Léo Petit',
   description: 'Personal Website of Léo Petit',
+  icons: [{rel: 'icon', url: Favicon.src}],
 }
 
 export default function RootLayout({

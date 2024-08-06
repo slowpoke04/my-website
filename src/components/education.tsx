@@ -1,6 +1,5 @@
 import {getTranslation} from '@/lib/i18n'
 import {ELanguages} from '@/types/enums'
-import Tag from './tag'
 import Image from 'next/image'
 
 interface IEducationKeys {
@@ -97,7 +96,6 @@ async function Education({
   const tagsText = t(educationKeys.tags, {returnObjects: true}) as string[]
   const imgPath = `/images/${educationKeys.id}.png`
 
-  console.log(`${educationKeys.id}.png =`, `${educationKeys.id}.png`)
   return (
     <div className='group flex flex-col items-stretch gap-2 rounded p-2 align-top sm:grid sm:grid-cols-3 md:border md:border-transparent md:hover:z-10 md:hover:border md:hover:border-slate-300 md:hover:bg-slate-100 md:dark:border-transparent md:dark:hover:border md:dark:hover:border-slate-700 md:dark:hover:bg-slate-900'>
       <div className='mt-1 text-sm font-medium text-slate-600 dark:text-slate-500 sm:col-span-1'>

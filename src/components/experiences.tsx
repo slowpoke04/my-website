@@ -36,8 +36,8 @@ const experiences: IExperienceKeys[] = [
 export default async function Experiences({lng}: {lng: ELanguages}) {
   const {t} = await getTranslation(lng, undefined, {keyPrefix: 'experience'})
   return (
-    <section id='experience' className='flex flex-col gap-12 md:-mt-4'>
-      <h2 className='text-sm font-semibold text-slate-500 dark:text-slate-500 md:invisible md:h-0'>
+    <section id='experience' className='flex flex-col gap-6 lg:-mt-4'>
+      <h2 className='text-sm font-semibold text-slate-500 dark:text-slate-500 lg:invisible lg:h-0'>
         {t('section_title')}
       </h2>
       <ul className='flex flex-col gap-6'>
@@ -67,11 +67,11 @@ async function Experience({
   const emphTextColor = 'font-semibold text-teal-700 dark:text-slate-100'
 
   return (
-    <div className='group flex flex-col gap-1 rounded-lg p-2 sm:grid sm:grid-cols-3 md:border md:border-transparent md:hover:z-50 md:hover:border md:hover:border-slate-300 md:hover:bg-slate-100 md:dark:hover:border-slate-700 md:dark:hover:bg-slate-900'>
-      <div className='text-sm font-medium text-slate-600 dark:text-slate-500 sm:col-span-1 sm:mt-[6px]'>
+    <div className='group flex flex-col gap-1 rounded-lg px-0 py-2 md:grid md:grid-cols-3 lg:border lg:border-transparent lg:p-2 lg:hover:z-50 lg:hover:border lg:hover:border-slate-300 lg:hover:bg-slate-100 lg:dark:hover:border-slate-700 lg:dark:hover:bg-slate-900'>
+      <div className='text-sm font-medium text-slate-600 dark:text-slate-500 md:col-span-1 md:mt-[6px]'>
         {t(experienceKeys.period)}
       </div>
-      <div className='flex flex-col gap-4 sm:col-span-2'>
+      <div className='flex flex-col gap-4 md:col-span-2'>
         <div>
           <h2 className='inline-block text-xl font-medium text-slate-600 dark:text-slate-100'>
             {t(experienceKeys.role)}

@@ -1,6 +1,6 @@
 {
-  "subtitle": "Ingénieur Full Stack Junior",
-  "pitch": "(☕,💶) => \"Web App\".repeat(☕ * 💶)",
+  "subtitle": "Ingénieur Logiciel Web & Data",
+  "pitch": "☕ in, apps out.",
   "tabs": {
     "about": "À PROPOS",
     "experience": "EXPÉRIENCE",
@@ -9,23 +9,23 @@
   },
   "about": {
     "section_title": "À PROPOS",
-    "content": "<par>J'ai découvert l'univers de la programmation en 2015 lors de mon tout premier cours d'informatique en licence. La puissance de cet outil m'a immédiatement fasciné. Je n'ai, depuis, cessé d'explorer l'étendue de ce domaine et de perfectionner mes compétences. .</par><par>Mon parcours académique, ainsi qu'un doctorat en modélisation mécanique ont renforcé mon expertise dans la gestion de défis conceptuels et computationnels complexes, mais aussi mes capacités à collaborer et communiquer mes résultats. Ma thèse en poche, j'ai décidé de me lancer dans le développement web, animé par un interet grandissant envers ce secteur et par une passion pour la création de solutions impactantes. J'ai entrepris de développer une application web dans le secteur de la finance, m'immergeant dans l'apprentissage des technologies fondamentales du Web, ainsi que du stack MERN.</par><par>Cette combinaison unique de rigueur scientifique et d'expérience pratique en développement web m'a doté d'un ensemble de compétences diversifiées. Mon background en science computationnelle garantit une solide base en résolution de problèmes et en pensée analytique, tandis que mon expérience pratique en technologies web démontre ma capacité à livrer des applications robustes et évolutives.</par><par>Je suis enthousiaste à l'idée de mettre à profit mes connaissances interdisciplinaires et mes compétences techniques pour contribuer à des projets innovants, concrétiser des idées et continuer à progresser en tant qu'ingénieur logiciel.</par>"
+    "content": "<par>J'ai découvert l'univers de la programmation en 2015 lors de mon tout premier cours d'informatique en licence. La puissance de cet outil m'a immédiatement fasciné. Je n'ai, depuis, cessé d'explorer l'étendue de ce domaine et de perfectionner mes compétences.</par><par>Mon parcours académique, ainsi qu'un doctorat en modélisation mécanique ont renforcé mon expertise dans la gestion de défis conceptuels et computationnels complexes, mais aussi mes capacités à collaborer avec mes pairs et à communiquer mes résultats. Ma thèse soutenue, j'ai décidé de me lancer dans le développement web, animé par un intérêt grandissant envers ce secteur et par une passion pour la création de solutions impactantes. J'ai entrepris de développer une application web dans le secteur de la finance, m'immergeant dans l'apprentissage des technologies fondamentales du Web, ainsi que du stack MERN.</par><par>Cette combinaison unique de rigueur scientifique et d'expérience pratique en développement web m'a doté d'un ensemble de compétences diversifiées. Mon background en sciences computationnelle garantit une solide base en résolution de problèmes et en pensée analytique, tandis que mon expérience pratique en technologies web démontre ma capacité à livrer des applications robustes et évolutives.</par><par>Je suis enthousiaste à l'idée de mettre à profit mes connaissances interdisciplinaires et mes compétences techniques pour contribuer à des projets innovants, concrétiser des idées et continuer à progresser en tant qu'ingénieur logiciel.</par>"
   },
   "experience": {
-    "diving_bear_company": "",
+    "diving_bear_company": "Projet Entrepreneurial",
     "diving_bear_role": "Développeur Full Stack",
     "diving_bear_period": "2023 - PRESENT",
     "diving_bear_tags": ["HTML", "Tailwind CSS", "React", "TypeScript", "Nest.js", "Express", "MongoDB", "Docker"],
     "diving_bear_description": "Conception et developpement d'une application web pour l'analyse de stratégies de trading.",
     "diving_bear_description_list": [
-      "Design du MVP",
-      "Autodidacte en technologies web modernes"
+      "Design sous Figma",
+      "Développement avec des technologies web modernes"
     ],
     "phd_company": "École normale supérieure de Paris",
-    "phd_role": "Doctorant en Géophysique",
+    "phd_role": "Thèse en Géophysique",
     "phd_period": "2019 - 2023",
-    "phd_tags": ["Equations aux Dérivées Partielles", "Modèles Directs", "Modèles Inverses", "Julia", "Matlab", "Python" ],
-    "phd_description": "Elaboration de nouveaux modèles physiques et informatiques afin de mieux comprendre la dynamique des frontières de plaques tectoniques aux grandes échelles spatiales et temporelles.",
+    "phd_tags": ["Equations aux Dérivées Partielles", "Modèles Directs", "Machine Learning", "Julia", "Matlab", "Python" ],
+    "phd_description": "Développement de modèles physiques et numériques intégrant des mécanismes d'endommagement afin d'étudier la dynamique des frontières de plaques tectoniques aux grandes échelles spatiales et temporelles.",
     "phd_description_list": [
       "Manipulation de concepts mathematiques et computationnels complexes.",
       "Présentation de mes résultats de recherche lors de conférences internationales et de workshops.",
@@ -50,9 +50,9 @@
     "ipgp_tags": ["Sismologie", "Geodynamique", "Geostatistiques", "Modélisation Numérique"],
     "ipgp_description_list": [],
     
-    "sorbonne_institution": "Sorbonne Université",
-    "sorbonne_degree": "L2 Geosciences",
-    "sorbonne_period": "2015 - 2016",
+    "sorbonne_institution": "Université (Dijon et Paris)",
+    "sorbonne_degree": "L1 et L2 Géosciences",
+    "sorbonne_period": "2014 - 2016",
 
     "dijon_institution": "Université de Bourgogne",
     "dijon_degree": "L1 Sciences Naturelles",

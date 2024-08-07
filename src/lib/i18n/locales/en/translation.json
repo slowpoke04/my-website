@@ -1,6 +1,6 @@
 {
-  "subtitle": "Junior Full Stack Engineer",
-  "pitch": "(☕,💶) => \"Web App\".repeat(☕ * 💶)",
+  "subtitle": "Web & Data Software Engineer",
+  "pitch": "☕ in, apps out.",
   "tabs": {
     "about": "ABOUT",
     "experience": "EXPERIENCE",
@@ -13,20 +13,20 @@
   },
   "experience": {
     "section_title": "EXPERIENCE",
-    "diving_bear_company": "Diving Bear",
+    "diving_bear_company": "Entrepreneurial Project",
     "diving_bear_role": "Développeur Full Stack",
     "diving_bear_period": "2023 - PRESENT",
     "diving_bear_tags": ["HTML", "Tailwind CSS", "React", "TypeScript", "Nest.js", "Express", "MongoDB", "Docker"],
     "diving_bear_description": "Conception and development of a web application for trading analysis.",
     "diving_bear_description_list": [
-      "Designed the MVP",
-      "Self-taught in modern web technologies"
+      "Designed using Figma",
+      "Developped using modern web technologies"
     ],
     "phd_company": "École normale supérieure de Paris",
     "phd_role": "PhD Candidate",
     "phd_period": "2019 - 2023",
-    "phd_tags": ["Partial Differential Equations", "Forward Modeling", "Inverse Modeling", "Julia", "Matlab", "Python", "Teaching", "Communication" ],
-    "phd_description": "I Built cutting edge physical and numerical models to study the dynamics of the Earth's crust over large space and time scales.",
+    "phd_tags": ["Partial Differential Equations", "Forward Modeling", "Machine Learning", "Julia", "Matlab", "Python", "Teaching", "Communication" ],
+    "phd_description": "Building cutting-edge physical and numerical models with Damage mechanisms to study the dynamics of the Earth's crust over large space and temporal scales.",
     "phd_description_list": [
       "Manipulated complex Mathematical and computational concepts.",
       "Presented research findings at international conferences and workshops.",
@@ -52,9 +52,9 @@
     "ipgp_description": "I specialized in seismology and geodynamics, and learned to model the Earth's interior and study its dynamics.",
     "ipgp_description_list": [],
 
-    "sorbonne_institution": "Sorbonne Université",
-    "sorbonne_degree": "Second Year in Geosciences",
-    "sorbonne_period": "2015 - 2016",
+    "sorbonne_institution": "University (Dijon and Paris)",
+    "sorbonne_degree": "First and Second Year in Geosciences",
+    "sorbonne_period": "2014 - 2016",
 
     "dijon_institution": "Université de Bourgogne",
     "dijon_degree": "First Year in Natural Sciences",

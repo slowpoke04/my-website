@@ -12,8 +12,8 @@ export default async function About({lng}: {lng: ELanguages}) {
     'text-[16px] font-extralight text-slate-500 dark:text-slate-400'
 
   return (
-    <section id='about' className='flex flex-col gap-4 md:-mt-4'>
-      <h2 className='text-sm font-semibold text-slate-500 dark:text-slate-500 md:invisible md:h-0'>
+    <section id='about' className='flex flex-col gap-4 lg:-mt-4'>
+      <h2 className='text-sm font-semibold text-slate-500 dark:text-slate-500 lg:invisible lg:h-0'>
         {t('section_title')}
       </h2>
       <Trans

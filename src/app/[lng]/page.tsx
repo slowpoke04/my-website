@@ -10,16 +10,16 @@ export default function Main({params}: {params: {lng: ELanguages}}) {
   const {lng} = params
   return (
     <main className='flex w-screen flex-col items-center'>
-      <div className='flex w-full max-w-[1224px] flex-col items-start gap-12 tracking-wide md:flex-row'>
+      <div className='flex w-full max-w-[1224px] flex-col items-start gap-12 tracking-wide lg:flex-row'>
         <Header
-          className='w-full p-6 pb-0 sm:p-10 sm:pb-0 md:sticky md:top-0 md:h-screen md:w-1/3 md:gap-6 md:p-20 md:pr-0'
+          className='w-full p-6 pb-0 md:p-10 md:pb-0 lg:sticky lg:top-0 lg:h-screen lg:w-2/5 lg:gap-6 lg:p-20 lg:pr-0'
           lng={lng}
         />
 
         <div
           id='content'
-          className='flex flex-col gap-16 p-6 pt-0 align-middle sm:p-10 sm:pt-0 md:-mt-16 md:h-full md:w-2/3 md:p-20 md:pl-0'>
-          <Links className='pb-4 md:invisible md:h-0 md:p-0' lng={lng} />
+          className='flex flex-col gap-16 p-6 pt-0 align-middle md:p-10 md:pt-0 lg:-mt-16 lg:h-full lg:w-3/5 lg:p-20 lg:pl-0'>
+          <Links className='pb-4 lg:invisible lg:h-0 lg:p-0' lng={lng} />
           <ActiveSectionSetter section='about'>
             <About lng={lng} />
           </ActiveSectionSetter>
@@ -29,7 +29,7 @@ export default function Main({params}: {params: {lng: ELanguages}}) {
           <ActiveSectionSetter section='education'>
             <Educations lng={lng} />
           </ActiveSectionSetter>
-          <div className='h-0 md:h-20'></div>
+          <div className='h-0 lg:h-52'></div>
         </div>
       </div>
     </main>

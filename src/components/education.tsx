@@ -52,13 +52,11 @@ export default async function Educations({lng}: {lng: ELanguages}) {
       <h2 className='text-sm font-semibold text-slate-500 dark:text-slate-500 lg:invisible lg:h-0'>
         {t('section_title')}
       </h2>
-      <div className='flex flex-col gap-2'>
-        <ul className='flex flex-col gap-4'>
-          {educations.map(expKeys => (
-            <Education key={expKeys.id} lng={lng} educationKeys={expKeys} />
-          ))}
-        </ul>
-      </div>
+      <ul className='flex flex-col gap-4'>
+        {educations.map(expKeys => (
+          <Education key={expKeys.id} lng={lng} educationKeys={expKeys} />
+        ))}
+      </ul>
     </section>
   )
 }
@@ -72,19 +70,11 @@ async function Education({
 }) {
   const {t} = await getTranslation(lng, undefined, {keyPrefix: 'education'})
 
-  const descriptionListElements = t(educationKeys.description_list, {
-    returnObjects: true,
-  }) as string[]
-
-  const tagsText = t(educationKeys.tags, {returnObjects: true}) as string[]
-  const imgPath = `/images/${educationKeys.id}.png`
-
   return (
     <div className='group flex flex-col items-stretch gap-2 rounded px-0 py-2 align-top md:grid md:grid-cols-3 lg:border lg:border-transparent lg:p-2 lg:hover:z-10 lg:hover:border lg:hover:border-slate-300 lg:hover:bg-slate-100 lg:dark:border-transparent lg:dark:hover:border lg:dark:hover:border-slate-700 lg:dark:hover:bg-slate-900'>
       <div className='mt-1 text-sm font-medium text-slate-600 dark:text-slate-500 md:col-span-1'>
         {t(educationKeys.period)}
       </div>
-      {/* <div className='flex flex-col gap-4 md:col-span-2'> */}
       <div className='md:col-span-2'>
         <h2 className='text-md inline-block font-medium text-slate-600 dark:text-slate-300'>
           {t(educationKeys.degree)}
@@ -96,12 +86,6 @@ async function Education({
           {t(educationKeys.institution)}
         </h3>
       </div>
-      {/* <div className='flex flex-wrap gap-2'>
-          {tagsText.map(tag => (
-            <Tag key={tag} text={tag} />
-          ))}
-        </div> */}
-      {/* </div> */}
     </div>
   )
 }

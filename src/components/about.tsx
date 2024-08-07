@@ -6,7 +6,6 @@ import ActiveSectionSetter from './client/active-section-setter'
 export default async function About({lng}: {lng: ELanguages}) {
   const {t} = await getTranslation(lng, undefined, {keyPrefix: 'about'})
 
-  // styles
   const emphTextColor = 'font-semibold text-teal-700 dark:text-slate-100'
   const paragraphClassName =
     'text-[16px] font-extralight text-slate-500 dark:text-slate-400'

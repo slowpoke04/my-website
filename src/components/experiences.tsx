@@ -4,7 +4,7 @@ import {Trans} from 'react-i18next/TransWithoutContext'
 import ActiveSectionSetter from './client/active-section-setter'
 import Tag from './tag'
 import Link from 'next/link'
-import {LinkIcon} from 'lucide-react'
+import {ArrowUpRight, LinkIcon} from 'lucide-react'
 
 interface IExperienceKeys {
   id?: number | string
@@ -36,15 +36,28 @@ const experiences: IExperienceKeys[] = [
 export default async function Experiences({lng}: {lng: ELanguages}) {
   const {t} = await getTranslation(lng, undefined, {keyPrefix: 'experience'})
   return (
-    <section id='experience' className='flex flex-col gap-6 lg:-mt-4'>
-      <h2 className='text-sm font-semibold text-slate-500 dark:text-slate-500 lg:invisible lg:h-0'>
-        {t('section_title')}
-      </h2>
-      <ul className='flex flex-col gap-6'>
-        {experiences.map(expKeys => (
-          <Experience key={expKeys.id} lng={lng} experienceKeys={expKeys} />
-        ))}
-      </ul>
+    <section id='experience'>
+      <div className='flex flex-col gap-6 lg:-mt-4'>
+        <h2 className='text-sm font-semibold text-slate-500 dark:text-slate-500 lg:invisible lg:h-0'>
+          {t('section_title')}
+        </h2>
+        <ul className='flex flex-col gap-6'>
+          {experiences.map(expKeys => (
+            <Experience key={expKeys.id} lng={lng} experienceKeys={expKeys} />
+          ))}
+        </ul>
+      </div>
+      <a
+        href='/files/CV_leo-petit.pdf'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='group/cv inline-block gap-2 text-base text-cyan-600 hover:text-cyan-500'>
+        <div className='mr-2 inline'>{t('view_cv')}</div>
+        <ArrowUpRight
+          size='14px'
+          className='inline group-hover/cv:-translate-y-1 group-hover/cv:translate-x-1'
+        />
+      </a>
     </section>
   )
 }
@@ -107,8 +120,8 @@ async function Experience({
             href='https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2023GC011229'
             target='_blank'
             rel='noopener'
-            className='group/link flex items-center gap-2 text-xs text-cyan-600 hover:text-slate-900 dark:hover:text-slate-100'>
-            <LinkIcon className='size-4 group-hover/link:text-slate-900 dark:group-hover/link:text-slate-100' />{' '}
+            className='group/link flex items-center gap-2 text-xs text-cyan-600 hover:text-cyan-500'>
+            <LinkIcon className='group-hover/link:text-cyen-500 size-4' />{' '}
             {t('phd_link')}
           </Link>
         )}

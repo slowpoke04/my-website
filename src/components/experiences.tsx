@@ -37,7 +37,7 @@ export default async function Experiences({lng}: {lng: ELanguages}) {
   const {t} = await getTranslation(lng, undefined, {keyPrefix: 'experience'})
   return (
     <section id='experience'>
-      <div className='flex flex-col gap-6 lg:-mt-4'>
+      <div className='mb-6 flex flex-col gap-6 lg:-mt-4'>
         <h2 className='text-sm font-semibold text-slate-500 dark:text-slate-500 lg:invisible lg:h-0'>
           {t('section_title')}
         </h2>

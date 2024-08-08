@@ -1,7 +1,6 @@
 import {getTranslation} from '@/lib/i18n'
 import {ELanguages} from '@/types/enums'
 import {Trans} from 'react-i18next/TransWithoutContext'
-import ActiveSectionSetter from './client/active-section-setter'
 import Tag from './tag'
 import Link from 'next/link'
 import {ArrowUpRight, LinkIcon} from 'lucide-react'
@@ -104,7 +103,6 @@ async function Experience({
               emph: <strong className={emphTextColor} />,
             }}
           />
-          {/* {t(experienceKeys.description)} */}
         </p>
         <ul className='flex flex-col gap-y-2'>
           {descriptionListElements.map((description, idx) => (

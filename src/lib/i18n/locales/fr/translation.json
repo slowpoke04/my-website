@@ -7,11 +7,14 @@
     "skills": "COMPÉTENCES",
     "education": "FORMATION"
   },
+  "footer": "Developpé avec <emph>Next.js</emph> et <emph>Tailwind CSS</emph>. Déployé sur <emph>Vercel</emph>.",
   "about": {
     "section_title": "À PROPOS",
     "content": "<par>J'ai découvert l'univers de la programmation en 2015 lors de mon tout premier cours d'informatique en licence. La puissance de cet outil m'a immédiatement fasciné. Je n'ai, depuis, cessé d'explorer l'étendue de ce domaine et de perfectionner mes compétences.</par><par>Mon parcours académique, ainsi qu'un doctorat en modélisation mécanique ont renforcé mon expertise dans la gestion de défis conceptuels et computationnels complexes, mais aussi mes capacités à collaborer avec mes pairs et à communiquer mes résultats. Ma thèse soutenue, j'ai décidé de me lancer dans le développement web, animé par un intérêt grandissant envers ce secteur et par une passion pour la création de solutions impactantes. J'ai entrepris de développer une application web dans le secteur de la finance, m'immergeant dans l'apprentissage des technologies fondamentales du Web, ainsi que du stack MERN.</par><par>Cette combinaison unique de rigueur scientifique et d'expérience pratique en développement web m'a doté d'un ensemble de compétences diversifiées. Mon background en sciences computationnelle garantit une solide base en résolution de problèmes et en pensée analytique, tandis que mon expérience pratique en technologies web démontre ma capacité à livrer des applications robustes et évolutives.</par><par>Je suis enthousiaste à l'idée de mettre à profit mes connaissances interdisciplinaires et mes compétences techniques pour contribuer à des projets innovants, concrétiser des idées et continuer à progresser en tant qu'ingénieur logiciel.</par>"
   },
   "experience": {
+    "section_title": "EXPÉRIENCE",
+    "view_cv": "Voir CV Complet",
     "diving_bear_company": "Projet Entrepreneurial",
     "diving_bear_role": "Développeur Full Stack",
     "diving_bear_period": "2023 - PRESENT",

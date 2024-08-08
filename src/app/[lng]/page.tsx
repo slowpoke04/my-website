@@ -11,6 +11,9 @@ import {Trans} from 'react-i18next/TransWithoutContext'
 export default async function Main({params}: {params: {lng: ELanguages}}) {
   const {lng} = params
   const {t} = await getTranslation(lng)
+
+  const hrStyle =
+    'h-[2px] rounded border-none my-8 w-full bg-slate-300 dark:bg-slate-800'
   return (
     <main className='flex w-screen flex-col items-center'>
       <div className='flex w-full max-w-[1224px] flex-col items-start gap-12 tracking-wide lg:flex-row'>
@@ -21,22 +24,26 @@ export default async function Main({params}: {params: {lng: ELanguages}}) {
 
         <div
           id='content'
-          className='flex flex-col gap-16 p-6 pt-0 align-middle md:p-10 md:pt-0 lg:-mt-16 lg:h-full lg:w-3/5 lg:p-20 lg:pl-0'>
+          className='p-6 pt-0 align-middle md:p-10 md:pt-0 lg:h-full lg:w-3/5 lg:p-20 lg:pl-0'>
           <Links className='pb-4 lg:invisible lg:h-0 lg:p-0' lng={lng} />
 
           <ActiveSectionSetter section='about'>
             <About lng={lng} />
           </ActiveSectionSetter>
 
+          <hr className={hrStyle} />
+
           <ActiveSectionSetter section='experience'>
             <Experiences lng={lng} />
           </ActiveSectionSetter>
+
+          <hr className={hrStyle} />
 
           <ActiveSectionSetter section='education'>
             <Educations lng={lng} />
           </ActiveSectionSetter>
 
-          <div className='h-0 lg:mt-44'>
+          <div className='h-0 lg:mt-48'>
             <p className='text-right text-xs font-light text-slate-400 dark:text-slate-500'>
               <Trans
                 t={t}

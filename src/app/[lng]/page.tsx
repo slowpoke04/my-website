@@ -13,7 +13,7 @@ export default async function Main({params}: {params: {lng: ELanguages}}) {
   const {t} = await getTranslation(lng)
 
   const hrStyle =
-    'h-[2px] rounded border-none my-8 w-full bg-slate-300 dark:bg-slate-800'
+    'h-[2px] rounded border-none my-8 w-full bg-slate-200 dark:bg-slate-800'
   return (
     <main className='flex w-screen flex-col items-center'>
       <div className='flex w-full max-w-[1224px] flex-col items-start gap-12 tracking-wide lg:flex-row'>

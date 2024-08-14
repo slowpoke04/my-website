@@ -43,7 +43,7 @@ export default async function Main({params}: {params: {lng: ELanguages}}) {
             <Educations lng={lng} />
           </ActiveSectionSetter>
 
-          <div className='h-0 lg:mt-48'>
+          <div className='h-0 lg:mt-80'>
             <p className='text-right text-xs font-light text-slate-400 dark:text-slate-500'>
               <Trans
                 t={t}

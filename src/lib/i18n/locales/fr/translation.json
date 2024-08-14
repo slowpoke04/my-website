@@ -10,8 +10,8 @@
   "footer": "Developpé avec <emph>Next.js</emph> et <emph>Tailwind CSS</emph>. Déployé sur <emph>Vercel</emph>.",
   "about": {
     "section_title": "À PROPOS",
-    "content": "<par>J'ai découvert l'univers de la programmation en 2015 lors de mon tout premier cours d'informatique en licence. La puissance de cet outil m'a immédiatement fasciné. Je n'ai, depuis, cessé d'explorer l'étendue de ce domaine et de perfectionner mes compétences.</par><par>Mon parcours académique, ainsi qu'un doctorat en modélisation mécanique ont renforcé mon expertise dans la gestion de défis conceptuels et computationnels complexes, mais aussi mes capacités à collaborer avec mes pairs et à communiquer mes résultats. Ma thèse soutenue, j'ai décidé de me lancer dans le développement web, animé par un intérêt grandissant envers ce secteur et par une passion pour la création de solutions impactantes. J'ai entrepris de développer une application web dans le secteur de la finance, m'immergeant dans l'apprentissage des technologies fondamentales du Web, ainsi que du stack MERN.</par><par>Cette combinaison unique de rigueur scientifique et d'expérience pratique en développement web m'a doté d'un ensemble de compétences diversifiées. Mon background en sciences computationnelle garantit une solide base en résolution de problèmes et en pensée analytique, tandis que mon expérience pratique en technologies web démontre ma capacité à livrer des applications robustes et évolutives.</par><par>Je suis enthousiaste à l'idée de mettre à profit mes connaissances interdisciplinaires et mes compétences techniques pour contribuer à des projets innovants, concrétiser des idées et continuer à progresser en tant qu'ingénieur logiciel.</par>"
-  },
+    "content": "<par>Diplômé de l’École Normale Supérieure de Paris avec une thèse en modélisation numérique, j’ai fait le choix de réorienter ma carrière vers l’ingénierie logicielle Web, un domaine qui me permet de concrétiser ma passion pour la création de solutions technologiques impactantes.</par><par>Initialement orienté vers la recherche fondamentale, j’ai réalisé que je suis plus attiré par les projets offrant des résultats plus concrets dans la sphere social. Cette prise de conscience, combinée à une fibre entrepreneuriale prononcée, m’a conduit à me plonger dans le développement d'une application Web innovante dédiée à l’analyse de stratégies de trading. Ce projet m’a permis de maîtriser les technologies Web, notamment le stack MERN, tout en mettant en pratique ma passion pour le développement que je pratique avec assiduité depuis plus de dix ans.</par><par>Mon expertise scientifique me permet d'aborder des défis techniques avec une approche analytique rigoureuse, tandis que mon expérience en développement Web démontre ma capacité à livrer des applications robustes et évolutives. Polyvalent et adaptable, je suis très à l'aise dans le travail en équipe, avec un sens développé de la pédagogie et de la communication.</par><par>Aujourd'hui, je suis enthousiaste à l'idée de mettre mes compétences interdisciplinaires au service de projets innovants et ambitieux, où je suis convaincu de pouvoir apporter une valeur ajoutée significative.</par>"
+  }, 
   "experience": {
     "section_title": "EXPÉRIENCE",
     "view_cv": "Voir CV Complet",
@@ -25,7 +25,7 @@
       "Développement avec des technologies web modernes"
     ],
     "phd_company": "École normale supérieure de Paris",
-    "phd_role": "Thèse en Géophysique",
+    "phd_role": "Thèse de Géophysique",
     "phd_period": "2019 - 2023",
     "phd_tags": ["Equations aux Dérivées Partielles", "Modèles Directs", "Machine Learning", "Julia", "Matlab", "Python" ],
     "phd_description": "Développement de modèles physiques et numériques intégrant des mécanismes d'endommagement afin d'étudier la dynamique des frontières de plaques tectoniques aux grandes échelles spatiales et temporelles.",

@@ -28,7 +28,7 @@ export async function Title({lng}: {lng: ELanguages}) {
   return (
     <section className='flex flex-col gap-4'>
       <h1 className='text-3xl font-semibold text-slate-600 dark:text-slate-100 md:text-5xl'>
-        Léo Petit
+        Eva N. Burgos
       </h1>
       <h2 className='text-lg text-slate-600 dark:text-slate-100 md:text-xl'>
         {t('subtitle')}

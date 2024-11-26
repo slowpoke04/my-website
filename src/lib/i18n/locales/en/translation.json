@@ -1,5 +1,5 @@
 {
-  "subtitle": "Web & Data Software Engineer",
+  "subtitle": "Biomedical Engineer",
   "pitch": "☕ in, apps out.",
   "tabs": {
     "about": "ABOUT",
@@ -10,48 +10,74 @@
   "footer": "Built with <emph>Next.js</emph> and <emph>Tailwind CSS</emph>. <block>Deployed on <emph>Vercel</emph> </block>.",
   "about": {
     "section_title": "ABOUT ME",
-    "content": "<par>Graduated from the École Normale Supérieure de Paris with a PhD in numerical modeling, I chose to redirect my career towards Web software engineering, a field that allows me to realize my passion for creating impactful technological solutions.</par><par>Initially oriented towards fundamental research, I realized that I am more attracted to projects offering more concrete results in the social sphere. This realization, combined with a strong entrepreneurial spirit, led me to dive into the development of an innovative Web application dedicated to the analysis of trading strategies. This project allowed me to master Web technologies, particularly the MERN stack, while practicing my passion for development, which I have been diligently pursuing for over ten years.</par><par>My scientific expertise enables me to tackle technical challenges with a rigorous analytical approach, while my experience in Web development demonstrates my ability to deliver robust and scalable applications. Versatile and adaptable, I am very comfortable working in a team, with a developed sense of pedagogy and communication.</par><par>Today, I am enthusiastic about putting my interdisciplinary skills to work on innovative and ambitious projects, where I am convinced I can bring significant added value.</par>"
+    "content": "<par>Biomedical Engineering student at the University of Texas at Dallas with a passion for innovative medical devices and engineering solutions that improve healthcare. My journey combines technical experience with creative problem-solving, aiming to address real-world challenges in biomedical systems.</par> <par>Through research internships and Co-Op experiences, I have developed skills in SolidWorks design, 3D printing, and rapid-prototyping. I am committed to creating solutions that merge cutting-edge technology with practical applications.</par> <par> I am enthusiastic about contributing my skills and knowledge to projects that can drive meaningful change in the healthcare industry and beyond.</par>"
   },
   "experience": {
     "section_title": "EXPERIENCE",
     "view_cv": "View Full Résumé",
-    "diving_bear_company": "Entrepreneurial Project",
-    "diving_bear_role": "Développeur Full Stack",
-    "diving_bear_period": "2023 - PRESENT",
-    "diving_bear_tags": ["HTML", "Tailwind CSS", "React", "TypeScript", "Nest.js", "Express", "MongoDB", "Docker"],
-    "diving_bear_description": "Conception and development of a web application for trading analysis.",
+    "diving_bear_company": "STERIS Endoscopy",
+    "diving_bear_role": "R&D Engineering Co-Op",
+    "diving_bear_period": "Aug 2024 - Dec 2024",
+    "diving_bear_tags": ["SolidWorks", "3D Printing", "Micromolding", "Prototyping", "FDA compliance", "Team Collaboration", "Data Analysis"],
+    "diving_bear_description": "Contributed to the design and development of innovative components for FDA-regulated medical devices.",
     "diving_bear_description_list": [
-      "Designed using Figma",
-      "Developped using modern web technologies"
+      "Sample Container Holder Project: Designed a durable, reusable sample holder using SolidWorks and 3D printing, improving laboratory workflow",
+      "Scope Buddy Project: Developed and tested a new O-ring for improved sealing and water flow in the Scope Buddy 1700, collaborating with engineers to refine the design.",
+      "Syringe Recall Project: Supported FDA compliance by validating syringe replacements, updating part numbers, and revising Instructions for the Use (IFUs).",
+      "Clamshell Project: Prototyped a clamshell for LED valve curing, addressing misalignment issues and ensuring compatibility with existing systems."
     ],
-    "phd_company": "École normale supérieure de Paris",
-    "phd_role": "PhD Candidate",
-    "phd_period": "2019 - 2023",
-    "phd_tags": ["Partial Differential Equations", "Forward Modeling", "Machine Learning", "Julia", "Matlab", "Python", "Teaching", "Communication" ],
-    "phd_description": "Building cutting-edge physical and numerical models with Damage mechanisms to study the dynamics of the Earth's crust over large space and temporal scales.",
+    "phd_company": "The University of Texas at Dallas",
+    "phd_role": "Undergraduate Researcher",
+    "phd_period": "2022 - 2024",
+    "phd_tags": ["Electrochemical Sensors", "Soil Health", "Data Analysis", "Research", "Research Writing", "Literature Research", "Publication", "Communication" ],
+    "phd_description": "Developed an innovative sensing platform for monitoring soil health and stability",
     "phd_description_list": [
-      "Manipulated complex Mathematical and computational concepts.",
-      "Presented research findings at international conferences and workshops.",
-      "Collaborated with a team of geophysicists to interpret the models results and publish research papers.",
-      "Contributed in educational activities by teaching and supervising undergraduate to master's students."
+      "Designed and calibrated an ion-selective electrode for ammonium detection in soil samples.",
+      "Collected and analyzed data to evaluate soil stability and nutrient imbalances.",
+      "Collaborated with a PhD student to co-author a publication for the American Chemical Society.",
+      "Demonstrated the platform's in-situ monitoring capabilities to stakeholders."
     ],
-    "phd_link": "Main publication here !"
+    "phd_link": "Main publication here !",
+    "Clark_company": "Clark Research Fellowship",
+    "Clark_role": "Research Intern", 
+    "Clark_period": "May 2022 - Aug 2022", 
+    "Clark_tags": ["Wearable Devices", "Biomedical Engineer", "Data Collection", "3D Printing", "Presentation"],
+    "Clark_description": "Designed a werable biosensor for monitoring cortisol and glucose spikes.",
+    "Clark_description_list": [
+      "Created and tested a werable biosensor for sweat dispersion analysis.", 
+      "Conducted research and presented findings at a summer undergraduate research symposium (SPUR).",
+      "Earned an award for technical expertise and presentation skills.", 
+      "Developed 3D models for the device patch and fabricated prototypes."
+    ], 
+    "WIP_company": "Worcester Polytechnic Institute", 
+    "WIP_role": "Virtual Internship in Biomedical Engineering (VIBE)", 
+    "WIP_period": "May 2024 - Jul 2024", 
+    "WIP_tags": ["Biomedical Devices", "NIR Spectroscopy", "3D Printing", "Prototype Developmemnt", "Team Leadership"],
+    "WIP_description": "Led the design of a wearable device for monitoring glucose in infants with diabetes.", 
+    "WIP_description_list": [ 
+      "Developed a lightweight wristband using near-infrared spectroscopy for non-invasive glucose monitoring.", 
+      "Created a 3D model in SolidWorks and fabricated prototypes using 3D printing.", 
+      "Validated functionality through home-based testing with simulated glucose solutiosn.", 
+      "Integrated an NIR sensor with Arduino Nano for affordable and efficient glucose detection."
+    ]
+  
+    
   },
   "education": {
     "section_title": "EDUCATION",
     "higher_education_title": "Higher Education",
-    "ens_institution": "École normale supérieure de Paris",
-    "ens_institution_link": "https://www.ens.psl.eu/",
-    "ens_degree": "Third Year, Master's, and Doctoral Degrees in Quantitative Earth Sciences",
-    "ens_period": "2016 - 2023",
+    "ens_institution": "The University of Texas at Dallas",
+    "ens_institution_link": "https://www.utdallas.edu/",
+    "ens_degree": "Bachelor's of Science, Biomedical Engineering",
+    "ens_period": "2022 - 2026",
     "ens_tags": ["Mathematics", "Physics", "Geophysics", "Numerical Methods", "Data Analysis", "Programming"],
     "ens_description": "I studied quantitative geosciences",
     "ens_description_list": [],
 
-    "ipgp_institution": "Institut de Physique du Globe de Paris",
-    "ipgp_institution_link": "https://www.ipgp.fr/",
-    "ipgp_degree": "Second Year of Master's in Geophysics",
-    "ipgp_period": "2018 - 2019",
+    "ipgp_institution": "Kingwood High School",
+    "ipgp_institution_link": "https://www.humbleisd.net/o/khs",
+    "ipgp_degree": "High School Diploma",
+    "ipgp_period": "2018 - 2022",
     "ipgp_tags": ["Seismology", "Geodynamics", "Geophysical Imaging", "Geostatistics", "Geophysical Inverse Problems", "Numerical Modeling"],
     "ipgp_description": "I specialized in seismology and geodynamics, and learned to model the Earth's interior and study its dynamics.",
     "ipgp_description_list": [],

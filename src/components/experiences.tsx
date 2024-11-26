@@ -30,6 +30,9 @@ function getExperienceKeys(prefix: string): IExperienceKeys {
 const experiences: IExperienceKeys[] = [
   getExperienceKeys('diving_bear'),
   getExperienceKeys('phd'),
+  getExperienceKeys('Clark'),
+  getExperienceKeys('WIP'),
+
 ]
 
 export default async function Experiences({lng}: {lng: ELanguages}) {
@@ -47,7 +50,7 @@ export default async function Experiences({lng}: {lng: ELanguages}) {
         </ul>
       </div>
       <a
-        href='/files/CV_leo-petit.pdf'
+        href='/files/CV_Burgos-Eva.pdf'
         target='_blank'
         rel='noopener noreferrer'
         className='group/cv inline-block gap-2 text-base text-cyan-600 hover:text-cyan-500'>
@@ -115,7 +118,7 @@ async function Experience({
         </ul>
         {experienceKeys.id === 'phd' && (
           <Link
-            href='https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2023GC011229'
+            href='https://pubs.acs.org/doi/10.1021/acsomega.4c04181'
             target='_blank'
             rel='noopener'
             className='group/link flex items-center gap-2 text-xs text-cyan-600 hover:text-cyan-500'>

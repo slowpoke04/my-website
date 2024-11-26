@@ -20,12 +20,12 @@ export default function Links({
       )}>
       <div className='flex gap-3'>
         <a
-          href='https://www.linkedin.com/in/léo-petit-74b84011b/'
+          href='https://www.linkedin.com/in/eva-natalieburgos/'
           target='_blank'
           rel='noopener'>
           <Linkedin className={LinkClassName} />
         </a>
-        <a href='https://github.com/Leooop' target='_blank' rel='noopener'>
+        <a href='https://github.com/slowpoke04' target='_blank' rel='noopener'>
           <Github className={LinkClassName} />
         </a>
         <a

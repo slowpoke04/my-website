@@ -5,3 +5,4 @@ export default async function Tag({text}: {text: string}) {
     </div>
   )
 }
+

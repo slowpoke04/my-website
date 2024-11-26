@@ -16,8 +16,8 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: 'Léo Petit',
-  description: 'Personal Website of Léo Petit',
+  title: 'E. Natalie Burgos',
+  description: 'Personal Website of E. Natalie Burgos',
 }
 
 export default function RootLayout({

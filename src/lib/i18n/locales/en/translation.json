@@ -82,7 +82,7 @@
     "ipgp_description": "I specialized in seismology and geodynamics, and learned to model the Earth's interior and study its dynamics.",
     "ipgp_description_list": [],
 
-    "sorbonne_institution": "University (Dijon and Paris)",
+    "sorbonne_institution": "SolidWorks",
     "sorbonne_degree": "SolidWorks",
     "sorbonne_period": "2014 - 2016",
 
@@ -95,6 +95,42 @@
     "data_sciences": "Data Science",
     "deep_learning": "Deep Learning",
     "inverted_pedagogy": "Inverted Pedagogy"
+
+  }, 
+  "certifications": {
+    "section_title": "Certifications", 
+    "items": [
+      {
+        "name": "Certified Associate in Project Management (CAPM)", 
+        "organization": "Project Management Institute", 
+        "date": "November 2024", 
+        "link": "https://www.pmi.org/certifications/certified-associate-capm"
+      },
+      { 
+        "name": "Certified SolidWorks Associate (CSWA)", 
+        "organization": "Dassault Systèmes", 
+        "date": "Sept 2024",
+        "picture": "/images/CSWA.png"
+      }, 
+      {
+        "name": "Certifeid SolidWorks Professional (CSWP)", 
+        "organization": "Dassault Systèmes", 
+        "date": "Oct 2024", 
+        "picture": "/images/CSWP.jpg"
+      }, 
+      {
+        "name": "Certified SolidWorks Professional - Advanced Drawing Tools", 
+        "organization": "Dassault Systèmes", 
+        "date": "Nov 2024", 
+        "picture": "/images/CSWPA-DT.jpg"
+      }, 
+      {
+        "name": "Certified SolidWorks Professional - Advanced Sheet Metal", 
+        "organization": "Dassault Systèmes", 
+        "date": "Nov 2024", 
+        "picture": "/images/CSWPA-SM.png"
+      }
+    ]
 
   }
 }
